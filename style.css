@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo general */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at top, #111827, #020617);
+  color: #ffffff;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor central */
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Nombre de la banda */
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+/* Subtexto */
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+
+/* Links */
+.links a {
+  display: block;
+  margin: 12px auto;
+  padding: 14px 20px;
+  max-width: 280px;
+
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover bonito */
+.links a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
